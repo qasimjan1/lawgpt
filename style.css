@@ -1,0 +1,598 @@
+.light-blue-bg{
+    background-color: #EDF7F5 ;
+    padding: 20px;
+}
+.navbar{
+    background-color: white!important;
+    position: sticky;
+}
+.heading{
+    text-align: center;
+    color: #3BA68C;
+    margin-top: 50px;
+    font-weight: 700;
+}
+hr{
+    margin: 0px!important;
+}
+
+
+.nav-link{
+    color: #3BA68C!important;
+    font-size: 20px!important;
+    font-weight: 400!important;
+    padding: 0px 20px!important;
+}
+.hero-section{
+    background-color: #3BA68C;
+    color: white;
+}
+.hero-heading{
+    margin-top: 140px;
+    font-size: 68px;
+    font-weight: 700;
+}
+.hero-p{
+    font-size: 18px;
+    margin-top: 50px;
+
+}
+.hero-img{
+    width: 100%;
+    height: auto;
+
+}
+.try-free{
+    background-color: #FD3131;
+    color: white;
+    border: none;
+    padding:10px 55px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.ellipse-col{
+    position: relative;
+}
+.ellipse{
+    position: absolute;
+    top: 55px;left: 0px;
+    
+}
+
+.video-size{
+    width: 100%;
+    height: 500px;
+}
+.start-thumbnail{
+    position: absolute;
+    top: 170px;
+
+
+}
+
+
+
+
+/* ********************* Ai types ******************** */  
+   .ai-types{
+    position: relative;
+   }   
+   .rectangle1{
+    position: absolute;
+    top: -370px;
+    right: 0px;
+    width: 130px;
+    height: 800px;
+    
+   }
+   .rectangle2{
+    position: absolute;
+    left: 0px;
+    top: 280px;
+     width: 150px;
+    height: 500px;
+
+   }
+
+.wrapper {
+        display: flex;
+        gap:100px;
+        justify-content: center;
+      }
+      .item1 {
+        width: 100%;
+        height: 150px;
+        background-color: #EDF7F5;
+        position: relative;
+        z-index: 100;
+        border-radius: 20px;
+        color: #3BA68C;
+         font-size: 46px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .item1::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: #EDF7F5;
+        transform: skewX(20deg);
+        position: absolute;
+        top: 0;
+        left: 40px;
+        z-index: -1;
+        border-radius: 20px;
+      }
+      .item2 {
+        width: 100%;
+        height: 150px;
+        background-color: #3BA68C;
+        position: relative;
+        z-index: 100;
+        color: white;
+        font-size: 22px;
+        font-weight: 500;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .item2::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: #3BA68C;
+        transform: skewX(20deg);
+        position: absolute;
+        top: 0;
+        right: 40px;
+        z-index: -1;
+        border-radius: 20px;
+      }
+
+.ai-types-cards{
+    text-align: center;
+    color: white!important;
+    background-color: #3BA68C!important;
+    border-radius: 40px!important;
+}
+
+.ai-types-cardtitle{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.ai-type-img img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+   
+}
+
+/* ********************* legal solution ********************8 */
+.experience{
+    font-size: 35px;
+}
+.legal-solution-heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: #3BA68C;
+    
+}
+.legal-solution{
+    display: flex;
+    flex-direction: row;
+}
+.avatar{
+    background-color: #FD3131;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.numbers{
+    border-radius: 100%;
+    border: 3px solid white;
+    background-color: #FD3131;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top: 77%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.vector-line{
+    width: 600px;
+     height: 130px;
+     position: absolute; 
+     top: 180px;
+     left: 70px;
+}
+.right-side{
+    margin-top: 160px!important;
+}
+
+
+/* **************************** about ai lawyer ******************** */
+
+.box{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    
+}
+.about-ai-lawyer{
+  width: 700px;
+    height: 450px;
+    position: relative;
+    background-color: #EDF7F5;
+    border-radius: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+    padding-left: 250px;
+    padding-right: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+.about-ai-lawyer span{
+    color: #3BA68C;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about-ai-lawyer::before{
+    content: '';
+    position: absolute;
+    background: #EDF7F5;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px 30px 0px 0px;
+    transform: translatey(-100%)rotate(-5deg);
+}
+.about-ai-img{
+    width: 350px;
+     height: 350px; 
+     position: absolute; 
+     left: -150px;
+      top: 60px;
+}
+
+/* **************************** pricing ******************** */
+.pricing-card{
+  border-radius: 40px!important;
+  height: 500px!important;
+ }
+
+.pricing-card-header{
+    background-color: #3BA68C!important;
+    color: white!important;
+    font-size: 30px;
+    font-weight: 700;
+   border-radius: 40px 40px 0px 0px!important;
+    text-align: center;
+}
+.pricing-card-body{
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+}
+.price{
+     color: #3BA68C;
+      font-size: 48px; 
+      font-weight: 800;
+}
+.checkmark{
+    width: 34px; 
+    height: 34px;
+    margin-right: 10px;
+}
+.pricing-card-btn{
+    background-color: #3BA68C;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 8px 40px;
+position: absolute;
+top: 95%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* *********************** FAQs********************** */
+
+.questions,.questions a {
+    font-size: 24px;
+    color: #3BA68C;
+    display: flex; 
+    flex-direction: row;
+     align-items: center;
+      justify-content: space-between;
+}
+.questions a{
+    font-size: 24px;
+    color: #3BA68C;
+}
+.faqs a{
+    text-decoration: none;
+}
+.faqs-contactus-div{
+    background-image: url(images/shakehand.png);
+    background-position:center;
+    width: 100%;
+    height: 661px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3BA68C;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+.contactus-div-title{
+    font-size: 46px;
+    font-weight: 700;
+    
+}
+.try-for-free{
+    background-color: #FD3131;
+    color: white;
+    border: none!important;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+ 
+
+/* **********************footer ******************* */
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.social-icons a{
+    color: white;
+margin: 20px;
+font-size: 50px;
+}
+
+.copy-right{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+/* ************************ login, forget-password, signup page ******************  */
+
+.form{
+    background-color:#EDF7F5 ;
+    border-radius: 30px;
+}
+.wellcome, .your-life,.forget-pass-title {
+    color: #3BA68C;
+    font-size: 50px;
+    font-weight: 800;
+}
+.login-ailawyer,.easy{
+font-size: 44px;
+font-weight: 700;
+font-family: 'Londrina Outline';
+color: #0D161D;
+    }
+    .login-heading,.forget-pass-right,.create-acc-title{
+        color: #3BA68C;
+        font-size: 30px;
+        font-weight: 700;
+    }
+.input-field{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#email{
+    width: 100%;
+    border: none!important;
+    outline: none;
+    padding-left: 10px;
+   }
+   label{
+    color: #1D1D35;
+   }
+   .forget-pass a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3BA68C;
+    text-decoration: none!important;
+   }
+   .login-btn , .reset-btn,.create-acc-btn{
+    color: white;
+    background-color: #3BA68C;
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px;
+   }
+
+   .social-app{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+   }
+   .have-acc{
+    color: #65798C;
+   }
+   .have-acc a{
+    text-decoration: none;
+    color: #1D1D35;
+   }
+   .agree a{
+text-decoration: none;
+   }
+
+   .forget-password-discreption{
+        color: #65798C;
+    }
+   
+
+
+     
+
+/* *********************** media queries ********************** */
+@media (max-width : 1025px){
+
+.start-thumbnail,.ellipse{
+    display: none;
+
+}
+.try-free{
+    margin-bottom: 20px;
+}
+.hero-heading{
+    font-size: 50px;
+}
+    .vector-line{
+    display: none;
+}
+.right-side{
+    margin-top: 10px!important;
+}
+
+.rectangle1,.rectangle2{
+    display: none;
+}
+
+
+.about-ai-lawyer {
+    width: 90%;
+    height: auto;
+    padding-left: 20px;
+   
+}
+
+.about-ai-img{
+    width: 100%;
+     height: auto;  
+     position: relative;
+     left: 5px;
+     margin-bottom: 40px;
+     
+}
+}
+
+@media (max-width : 768px){
+    .hero-heading{
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.nav-link{
+    padding:0px!important;
+}
+.wrapper {
+        flex-direction: column;
+        gap: 40px;
+   
+}
+      .item2::before  ,.item1::before{
+        width: 75%;
+      }
+
+      .item1 {
+    height: 140px;
+   font-size: 35px;
+}
+.item2 {
+   
+    height: 140px;
+    font-size: 20px;
+    padding: 10px;
+}
+     
+.pricing-card-btn{
+   
+    padding: 4px 20px;
+}
+.social-icons a{
+   
+font-size: 30px;
+margin: 10px;
+}
+.legal-solution-heading {
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.experience {
+    font-size: 25px;
+}
+.video-size{
+    height: 300px;
+}
+.wellcome,  .forget-pass-title,.your-life {
+    font-size: 30px;
+   
+}
+.login-ailawyer,.easy {
+    font-size: 30px;
+    font-weight: 700;
+}
+.social-app{
+    margin: 5px;
+   }
+   .hero-heading {
+    font-size: 30px;
+}
+   
+}
+
+@media (max-width :425px){
+    .item2 {
+   height: 120px;
+    padding: 10px;
+    font-size: 18px;
+    
+    }
+    .item1 {
+     height: 120px;
+     font-size: 25px;
+    }
+    .questions a {
+    font-size: 20px;
+    
+}
+.try-free {
+   
+    padding: 5px 35px;
+    font-size: 20px;
+}
+.contactus-div-title {
+    font-size: 35px;
+}
+   
+}
